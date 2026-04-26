@@ -1,0 +1,50 @@
+.about {
+    padding-top: 21px;
+    padding-bottom: 69px;
+    background: url("../assets/images/about-back-1.png") no-repeat;
+    background-size: 100% 100%, cover;
+}
+
+.about-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 61px;
+}
+
+.about-block {
+    display: flex;
+    gap: 49px;
+    max-width: 1061px;
+    align-items: center;
+    width: 100%;
+    margin-left: 11px;
+}
+
+.about-block:last-of-type {
+    margin-left: 274px;
+}
+
+.about-content h3 {
+    max-width: 605px;
+    margin-top: 28px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fffbfb;
+}
+
+.about-content p {
+    max-width: 561px;
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #fffbfb;
+}
+
+.about-content h4 {
+    max-width: 561px;
+    margin-top: 22px;
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--light-yellow);
+}

@@ -1,0 +1,143 @@
+.main {
+    background: url("../assets/images/main-back-1.png") no-repeat;
+    background-size: 100% auto, cover;
+    padding-top: 308px;
+    padding-bottom: 59px;
+    margin-top: -89px;
+}
+
+.main-title {
+    font-family: Allamare, sans-serif;
+    font-weight: 400;
+    font-size: 125px;
+    line-height: 90%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white);
+}
+
+.main-content {
+    margin-left: -364px;
+    max-width: 917px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.main-desc {
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    color: var(--white);
+    max-width: 483px;
+    margin: 16px auto 0;
+}
+
+.main-desc span {
+    color: var(--light-yellow);
+}
+
+.main-block {
+    margin-top: 151px;
+    width: 1277px;
+    position: relative;
+}
+
+.main-girl {
+    position: absolute;
+    top: -582px;
+    width: 503px;
+    right: 152px;
+    /*z-index: 2;*/
+}
+
+.night {
+    position: relative;
+    border-radius: 60px 60px 0 0;
+    padding: 59px 34px 32px;
+    background: linear-gradient(176deg, #82cff5 0%, #87d1f5 94.09%);
+}
+
+.night-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.night-text {
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    max-width: 569px;
+}
+
+.night-text p {
+    font-weight: 400;
+    font-size: 26px;
+    color: var(--medium-night);
+}
+
+.night-text p span {
+    color: var(--medium-night);
+    font-weight: 700;
+}
+
+.night-text h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--medium-night);
+}
+
+.night-title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%;
+    color: #002f6d;
+}
+
+.formula {
+    background: linear-gradient(176deg, #87d1f5 0%, #e5f8ff 94.09%);
+    padding: 50px 34px 44px;
+    border-radius: 0 0 60px 60px;
+}
+
+.formula-title {
+    margin-top: 99px;
+    max-width: 832px;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%;
+    color: var(--medium-night);
+}
+
+.formula-list {
+    margin-top: 72px;
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formula-list div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formula-list h3 {
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    color: var(--medium-night);
+}
+
+.formula-list p {
+    margin-top: 18px;
+    max-width: 320px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: var(--medium-night);
+}

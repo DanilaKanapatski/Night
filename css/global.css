@@ -1,0 +1,54 @@
+:root {
+    --night: #010b38;
+    --medium-night: #002e6d;
+    --blue: #008fb6;
+    --light-blue: #82cff5;
+    --white-blue: #bfe4f6;
+    --white: #fff;
+    --light-yellow: #fef19c;
+    --yellow: #ffd100;
+    --background-dark: #01092b;
+    --grey-blue: #63727a;
+    --dark-blue: #010b38;
+    --card: #1d1c20;
+    --card2: #020619;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Golos Text", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%;
+    color: var(--light-yellow);
+}
+
+@font-face {
+    font-family: 'Allamare';
+    src: url('../assets/fonts/allamare_regular.woff2') format('woff2'),
+    url('../assets/fonts/allamare_regular.woff') format('woff'),
+    url('../assets/fonts/allamare_regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}

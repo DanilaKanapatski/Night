@@ -1,0 +1,66 @@
+.habits {
+    padding-top: 50px;
+    background: url("../assets/images/habits-back-1.png") no-repeat;
+    position: relative;
+    padding-bottom: 340px;
+    background-size: 100% 100%, cover;
+}
+
+.habits-container {
+    max-width: 1291px;
+    margin: 0 auto;
+}
+
+.habits-desc {
+    margin-top: 14px;
+    max-width: 1103px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    color: var(--white);
+}
+
+.habits-list {
+    margin-top: 83px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 486px 471px;
+    gap: 32px;
+}
+
+.habits-list h3 {
+    margin-top: 19px;
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--night);
+}
+
+.habits-list p {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--night);
+}
+
+.habits-block {
+    border: 1px solid rgba(191, 228, 246, 0.3);
+    border-radius: 60px;
+    box-shadow: inset 3px -14px 29px 0 rgba(216, 223, 255, 0.3);
+    background: linear-gradient(90deg, #e8f9fe 0%, #d6f1ff 100%);
+    padding: 35px 46px 0 52px;
+}
+
+.habits-block div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    width: 84px;
+    height: 84px;
+    box-shadow: inset 0 4px 4px 0 #c6f1ff;
+    background: radial-gradient(50% 50% at 50% 50%, #fff 59.13%, #cef1ff 100%);
+}
+
+.habits-img {
+    grid-column: 2 / span 2;
+}
