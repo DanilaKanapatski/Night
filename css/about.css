@@ -156,3 +156,61 @@
         margin-top: 28px;
     }
 }
+
+@media screen and (max-width: 727px) {
+    .about {
+        padding-top: 34px;
+        padding-bottom: 76px;
+        background: url("../assets/images/about-back-7.png") no-repeat;
+        background-size: 100% 100%, cover;
+    }
+
+    .about-list {
+        gap: 65px;
+        margin-top: 3px;
+    }
+
+    .about-block {
+        display: block;
+        padding-top: 283px;
+        max-width: 445px;
+        margin-left: 0;
+        position: relative;
+    }
+
+    .about-block picture {
+        position: absolute;
+        left: 85px;
+        top: 0;
+    }
+
+    .about-block:last-of-type {
+        margin-left: 0;
+    }
+
+    .about-block:last-of-type picture {
+        left: 98px;
+    }
+
+    .about-content h3 {
+        margin-top: 14px;
+        font-size: 22px;
+        line-height: 120%;
+    }
+
+    .about-content p {
+        max-width: 445px;
+        margin-top: 28px;
+        font-size: 18px;
+    }
+
+    .about-content h4 {
+        max-width: 445px;
+        font-size: 18px;
+    }
+
+    .about-content svg {
+        width: 64px;
+        height: 64px;
+    }
+}

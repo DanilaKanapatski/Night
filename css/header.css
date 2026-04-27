@@ -264,3 +264,31 @@
         border-radius: 0;
     }
 }
+
+@media screen and (max-width: 727px) {
+
+    .mobile-header__inner {
+        height: 78px;
+        padding: 0 18px 0 18px;
+    }
+
+    .mobile-menu {
+        top: 78px;
+    }
+
+    .mobile-menu__list a {
+        font-size: 14px;
+        color: var(--medium-night);
+        padding: 4px 0;
+    }
+
+    /* чтобы контент не прятался под fixed header */
+    body {
+        padding-top: 78px;
+    }
+
+    .main-header img {
+        display: none;
+    }
+
+}
