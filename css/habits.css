@@ -25,7 +25,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 486px 471px;
-    gap: 32px;
+    gap: 24px 32px;
 }
 
 .habits-list h3 {
@@ -63,4 +63,36 @@
 
 .habits-img {
     grid-column: 2 / span 2;
+}
+
+@media screen and (max-width: 2300px) {
+    .habits {
+        background: url("../assets/images/habits-back-2.png") no-repeat;
+        background-size: 100% 100%, cover;
+        padding-bottom: 306px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .habits {
+        background: url("../assets/images/habits-back-3.png") no-repeat;position: relative;
+        padding-bottom: 289px;
+        background-size: 100% 100%, cover;
+    }
+}
+
+@media screen and (max-width: 1728px) {
+    .habits {
+        background: url("../assets/images/habits-back-4.png") no-repeat;position: relative;
+        padding-bottom: 317px;
+        background-size: 100% 100%, cover;
+    }
+}
+
+@media screen and (max-width: 1515px) {
+    .habits {
+        background: url("../assets/images/habits-back-5.png") no-repeat;position: relative;
+        padding-bottom: 312px;
+        background-size: 100% 100%, cover;
+    }
 }

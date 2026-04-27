@@ -48,3 +48,65 @@
     font-size: 22px;
     color: var(--light-yellow);
 }
+
+@media screen and (max-width: 2300px) {
+    .about {
+        background: url("../assets/images/about-back-2.png") no-repeat;
+        background-size: 100% 100%, cover;
+    }
+
+    .about-block {
+        margin-left: 79px;
+    }
+
+    .about-block:last-of-type {
+        margin-left: 345px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .about {
+        background: url("../assets/images/about-back-3.png") no-repeat;
+        background-size: 100% 100%, cover;
+    }
+
+    .about-block {
+        margin-left: 11px;
+    }
+
+    .about-block:last-of-type {
+        margin-left: 274px;
+    }
+
+}
+
+@media screen and (max-width: 1728px) {
+    .about {
+        background: url("../assets/images/about-back-4.png") no-repeat;
+        background-size: 100% 100%, cover;
+    }
+
+    .about-block {
+        margin-left: 2px;
+    }
+
+    .about-block:last-of-type {
+        margin-left: 230px;
+    }
+}
+
+@media screen and (max-width: 1515px) {
+    .about {
+        background: url("../assets/images/about-back-5.png") no-repeat;
+        background-size: 100% 100%, cover;
+        padding-bottom: 67px;
+    }
+
+    .about-block {
+        margin-left: -6px;
+    }
+
+    .about-block:last-of-type {
+        margin-left: 209px;
+    }
+}
