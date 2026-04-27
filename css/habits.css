@@ -20,6 +20,10 @@
     color: var(--white);
 }
 
+.habits-desc-mob {
+    display: none;
+}
+
 .habits-list {
     margin-top: 83px;
     display: grid;
@@ -65,7 +69,7 @@
     grid-column: 2 / span 2;
 }
 
-@media screen and (max-width: 2300px) {
+@media screen and (max-width: 2299px) {
     .habits {
         background: url("../assets/images/habits-back-2.png") no-repeat;
         background-size: 100% 100%, cover;
@@ -73,31 +77,34 @@
     }
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1919px) {
     .habits {
-        background: url("../assets/images/habits-back-3.png") no-repeat;position: relative;
+        background: url("../assets/images/habits-back-3.png") no-repeat;
+        position: relative;
         padding-bottom: 289px;
         background-size: 100% 100%, cover;
     }
 }
 
-@media screen and (max-width: 1728px) {
+@media screen and (max-width: 1727px) {
     .habits {
-        background: url("../assets/images/habits-back-4.png") no-repeat;position: relative;
+        background: url("../assets/images/habits-back-4.png") no-repeat;
+        position: relative;
         padding-bottom: 317px;
         background-size: 100% 100%, cover;
     }
 }
 
-@media screen and (max-width: 1515px) {
+@media screen and (max-width: 1514px) {
     .habits {
-        background: url("../assets/images/habits-back-5.png") no-repeat;position: relative;
+        background: url("../assets/images/habits-back-5.png") no-repeat;
+        position: relative;
         padding-bottom: 312px;
         background-size: 100% 100%, cover;
     }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) {
     .habits {
         background: url("../assets/images/habits-back-6.png") no-repeat;
         padding-bottom: 343px;
@@ -112,10 +119,18 @@
         max-width: 644px;
     }
 
-    .habits-desc {
-        margin-top: 24px;
-        max-width: 640px;
+    .habits-desc-mob {
+        margin-top: 28px;
+        display: block;
+        font-weight: 400;
         font-size: 26px;
+        line-height: 120%;
+        color: var(--white);
+        max-width: 640px;
+    }
+
+    .habits-desc {
+        display: none;
     }
 
     .habits-list {

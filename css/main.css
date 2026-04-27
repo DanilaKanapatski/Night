@@ -145,7 +145,11 @@
     color: var(--medium-night);
 }
 
-@media screen and (max-width: 2300px) {
+.formula-list p:nth-child(2) {
+    display: none;
+}
+
+@media screen and (max-width: 2299px) {
     .main {
         background: url("../assets/images/main-back-2.png") no-repeat;
         background-size: 100% auto, cover;
@@ -166,7 +170,7 @@
     }
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1919px) {
     .main {
         background: url("../assets/images/main-back-3.png") no-repeat;
         background-size: 100% auto, cover;
@@ -188,7 +192,7 @@
     }
 }
 
-@media screen and (max-width: 1728px) {
+@media screen and (max-width: 1727px) {
     .main {
         background: url("../assets/images/main-back-4.png") no-repeat;
         background-size: 100% auto, cover;
@@ -210,7 +214,7 @@
     }
 }
 
-@media screen and (max-width: 1515px) {
+@media screen and (max-width: 1514px) {
     .main {
         background: url("../assets/images/main-back-5.png") no-repeat;
         background-size: 100% auto, cover;
@@ -232,7 +236,7 @@
     }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) {
     .main {
         background: url("../assets/images/main-back-6.png") no-repeat;
         background-size: 100% auto, cover;
@@ -275,7 +279,7 @@
     .night-mob {
         display: block;
         background: linear-gradient(174deg, #82cff5 0%, #e5f8ff 100%);
-        padding: 38px 21px 129px 0;
+        padding: 38px 0 129px 0;
         border-radius: 44px;
         position: relative;
         z-index: 2;
@@ -285,6 +289,10 @@
         margin-top: 116px;
         position: relative;
         display: block;
+    }
+
+    .night-formula {
+        width: 100%;
     }
 
     .night-text {
@@ -330,5 +338,18 @@
 
     .formula-list p {
         font-size: 22px;
+    }
+
+    .formula-list li p:first-of-type {
+        display: none;
+    }
+
+    .formula-list p:nth-child(2) {
+        display: block;
+        margin-top: 18px;
+        font-weight: 400;
+        font-size: 22px;
+        text-align: center;
+        color: var(--medium-night);
     }
 }
