@@ -96,3 +96,50 @@
         background-size: 100% 100%, cover;
     }
 }
+
+@media screen and (max-width: 1440px) {
+    .habits {
+        background: url("../assets/images/habits-back-6.png") no-repeat;
+        padding-bottom: 343px;
+        background-size: 100% 100%, cover;
+    }
+
+    .habits .title {
+        max-width: 354px;
+    }
+
+    .habits-container {
+        max-width: 644px;
+    }
+
+    .habits-desc {
+        margin-top: 24px;
+        max-width: 640px;
+        font-size: 26px;
+    }
+
+    .habits-list {
+        margin-top: 114px;
+        display: grid;
+        grid-template-columns: 644px;
+        grid-template-rows: 438px 365px 366px 366px 365px;
+        gap: 35px 35px;
+    }
+
+    .habits-list h3 {
+        font-size: 24px;
+    }
+
+    .habits-list p {
+        font-size: 16px;
+    }
+
+    .habits-block {
+        padding: 35px 52px 0 52px;
+    }
+
+    .habits-img {
+        grid-column: 1;
+        grid-row: 1;
+    }
+}

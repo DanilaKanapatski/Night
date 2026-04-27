@@ -18,7 +18,7 @@
 <body>
 <header class="header">
     <div class="header-container">
-        <img src="assets/images/header-logo.svg" alt="">
+        <a href="index.html"><img src="assets/images/header-logo.svg" alt=""></a>
         <ul class="header-list">
             <li><a href="#main">О продукте</a></li>
             <li><a href="#about">Кому подойдет</a></li>
@@ -29,7 +29,7 @@
 </header>
 <header class="mobile-header">
     <div class="mobile-header__inner">
-        <a href="/" class="mobile-header__logo">
+        <a href="index.html" class="mobile-header__logo">
             <img src="assets/images/header-logo.svg" alt="Parmalat">
         </a>
 
@@ -52,19 +52,17 @@
 
 <nav class="mobile-menu">
     <ul class="mobile-menu__list">
-        <li><a href="#about">О продукте</a></li>
-        <li><a href="#why">О пользе белка</a></li>
-        <li><a href="#assortment">Ассортимент</a></li>
-        <li><a href="#recipes">Рецепты</a></li>
-        <li><a href="#buy">Где купить</a></li>
-        <li><a href="#faq">Вопросы и ответы</a></li>
+        <li><a href="#main">О продукте</a></li>
+        <li><a href="#about">Кому подойдет</a></li>
+        <li><a href="#habits">Привычки хорошего сна</a></li>
+        <li><a href="#footer">Контакты</a></li>
     </ul>
 </nav>
 <main>
     <section class="main">
         <picture class="main-header">
             <source media="(max-width: 399px)" srcset="assets/images/header-back-4.svg">
-            <source media="(max-width: 487px)" srcset="assets/images/header-back-3.svg">
+            <source media="(max-width: 1440px)" srcset="assets/images/header-back-6.svg">
             <source media="(max-width: 1515px)" srcset="assets/images/header-back-5.svg">
             <source media="(max-width: 1728px)" srcset="assets/images/header-back-4.svg">
             <source media="(max-width: 1920px)" srcset="assets/images/header-back-3.svg">
@@ -75,11 +73,15 @@
             <div class="main-content">
                 <h1 class="main-title">Для ваших
                     приятных снов!</h1>
-                <p class="main-desc"><span>Parmalat Спокойной Ночи</span> — молоко и липа для расслабленного отдыха
+                <p class="main-desc"><span>Parmalat Спокойной Ночи</span> — молоко<br> и липа для расслабленного отдыха
                     перед
                     сном</p></div>
             <div class="main-block" id="main">
-                <img class="main-girl" src="assets/images/girl-1.png" alt="">
+
+                <picture class="main-girl">
+                    <source media="(max-width: 1440px)" srcset="assets/images/girl-1.1.png">
+                    <img src="assets/images/girl-1.png" alt="">
+                </picture>
                 <div class="night">
                     <img class="night-img" src="assets/images/night-1.png" alt="">
                     <h2 class="night-title">Parmalat<br> Спокойной Ночи</h2>
@@ -118,6 +120,44 @@
                         </li>
                     </ul>
                 </div>
+                <div class="night-mob">
+                    <h2 class="night-title">Parmalat<br> Спокойной Ночи</h2>
+                    <div class="night-text">
+                        <p>Мы добавили в молоко натуральный экстракт липы, и получился уникальный продукт для
+                            расслабления
+                            перед сном </p>
+                        <h3>Parmalat Спокойной Ночи помогает настроиться на отдых и сон</h3>
+                        <p>В молоке содержится <span>триптофан — незаменимая аминокислота</span>, которая участвует в
+                            выработке серотонина, который вечером превращается в мелатонин (природный гормон сна) и
+                            помогает
+                            организму заснуть. Поэтому
+                            <span>молоко перед сном</span> — не просто приятная привычка, а естественная поддержка для
+                            здорового засыпания</p>
+                    </div>
+                    <img src="assets/images/formula-2.svg" alt="">
+                    <img class="night-img" src="assets/images/night-2.png" alt="">
+
+                    <h2 class="formula-title">Натуральная формула спокойствия</h2>
+                    <ul class="formula-list">
+                        <li>
+                            <div><img src="assets/images/formula-1.png" alt=""></div>
+                            <h3>Липа</h3>
+                            <p>Мягкий вкус липы и цветочный аромат идеальны для вечернего отдыха и расслабления</p>
+                        </li>
+                        <li>
+                            <div><img src="assets/images/formula-2.png" alt=""></div>
+                            <h3>Молоко </h3>
+                            <p>Стакан тёплого молока перед<br>
+                                сном — проверенный способ расслабиться и снять стресс, тревогу</p>
+                        </li>
+                        <li>
+                            <div><img src="assets/images/formula-3.png" alt=""></div>
+                            <h3>Лёгкость</h3>
+                            <p>Parmalat Спокойной Ночи легко усваивается благодаря безлактозной рецептуре</p>
+                        </li>
+                    </ul>
+
+                </div>
             </div>
         </div>
 
@@ -127,7 +167,11 @@
             <h2 class="title">Для кого подойдет<br>Parmalat Спокойной Ночи</h2>
             <div class="about-list">
                 <div class="about-block">
-                    <img src="assets/images/about-1.png" alt="">
+
+                    <picture>
+                        <source media="(max-width: 1440px)" srcset="assets/images/about-1.1.png">
+                        <img src="assets/images/about-1.png" alt="">
+                    </picture>
                     <div class="about-content">
                         <svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M75.4518 81.3711C72.8036 81.3711 70.6602 83.5185 70.6602 86.1667C70.6602 88.8149 72.8075 90.9622 75.4518 90.9622C78.1001 90.9622 80.2474 88.8148 80.2474 86.1667C80.2474 83.5223 78.1 81.3711 75.4518 81.3711Z"
@@ -145,7 +189,10 @@
                     </div>
                 </div>
                 <div class="about-block">
-                    <img src="assets/images/about-2.png" alt="">
+                    <picture>
+                        <source media="(max-width: 1440px)" srcset="assets/images/about-2.1.png">
+                        <img src="assets/images/about-2.png" alt="">
+                    </picture>
                     <div class="about-content">
                         <svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8.18793 57.2227H87.9973C88.1017 57.2227 88.1853 57.3268 88.1853 57.4102V67.6253C88.1853 67.7294 88.1017 67.8128 87.9973 67.8128H8.18793C8.08352 67.8128 8 67.7086 8 67.6253V57.4102C8 57.306 8.08352 57.2227 8.18793 57.2227Z"
@@ -197,7 +244,10 @@
                         перед сном — простой шаг, чтобы мягко завершить день и настроиться на полноценный отдых</p>
                 </div>
                 <div class="habits-img">
-                    <img src="assets/images/habits-1.png" alt="">
+                    <picture>
+                        <source media="(max-width: 1440px)" srcset="assets/images/habits-2.png">
+                        <img src="assets/images/habits-1.png" alt="">
+                    </picture>
                 </div>
                 <div class="habits-block">
                     <div>
@@ -256,6 +306,7 @@
         </footer>
     </section>
 </main>
+<script src="header.js"></script>
 
 </body>
 </html>
