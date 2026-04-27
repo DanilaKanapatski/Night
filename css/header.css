@@ -266,6 +266,9 @@
 }
 
 @media screen and (max-width: 727px) {
+    .mobile-header {
+        /*border-radius: 0 0 16px 16px;*/
+    }
 
     .mobile-header__inner {
         height: 78px;

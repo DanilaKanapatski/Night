@@ -214,3 +214,61 @@
         height: 64px;
     }
 }
+
+@media screen and (max-width: 487px) {
+    .about {
+        padding-top: 34px;
+        padding-bottom: 80px;
+        background: url("../assets/images/about-back-8.png") no-repeat;
+        background-size: 100% 100%, cover;
+    }
+
+    .about-list {
+        gap: 73px;
+        margin-top: 53px;
+    }
+
+    .about-block {
+        display: block;
+        padding-top: 234px;
+        max-width: 357px;
+        margin-left: 0;
+        position: relative;
+    }
+
+    .about-block picture {
+        position: absolute;
+        left: 59px;
+        top: 0;
+    }
+
+    .about-block:last-of-type {
+        margin-left: 0;
+    }
+
+    .about-block:last-of-type picture {
+        left: 88px;
+    }
+
+    .about-content h3 {
+        margin-top: 14px;
+        font-size: 22px;
+        line-height: 120%;
+    }
+
+    .about-content p {
+        max-width: 357px;
+        margin-top: 28px;
+        font-size: 18px;
+    }
+
+    .about-content h4 {
+        max-width: 357px;
+        font-size: 18px;
+    }
+
+    .about-content svg {
+        width: 64px;
+        height: 64px;
+    }
+}
