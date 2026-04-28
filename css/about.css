@@ -41,6 +41,14 @@
     color: #fffbfb;
 }
 
+.about-desc-mob {
+    display: none;
+}
+
+.about-subtitle-mob {
+    display: none;
+}
+
 .about-content h4 {
     max-width: 561px;
     margin-top: 22px;
@@ -260,6 +268,23 @@
         max-width: 357px;
         margin-top: 28px;
         font-size: 18px;
+    }
+
+    .about-desc-mob {
+        display: block;
+        max-width: 341px;
+    }
+
+    .about-desc {
+        display: none;
+    }
+
+    .about-subtitle {
+        display: none;
+    }
+
+    .about-subtitle-mob {
+        display: block;
     }
 
     .about-content h4 {

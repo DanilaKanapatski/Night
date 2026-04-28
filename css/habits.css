@@ -24,6 +24,14 @@
     display: none;
 }
 
+.habits-mob {
+    display: none;
+}
+
+.habits-desktop {
+    display: none;
+}
+
 .habits-list {
     margin-top: 83px;
     display: grid;
@@ -216,6 +224,18 @@
         font-weight: 400;
     }
 
+    .habits-block .habits-desktop {
+        display: block;
+        margin-top: 14px;
+        font-size: 14px;
+        color: var(--night);
+        font-weight: 400;
+    }
+
+    .habits-mob {
+        display: none !important;
+    }
+
     .habits-block {
         padding: 20px 22px 0 22px;
     }
@@ -291,6 +311,14 @@
         font-size: 14px;
         color: var(--night);
         font-weight: 400;
+    }
+
+    .habits-block .habits-desktop {
+        display: none;
+    }
+
+    .habits-mob {
+        display: block !important;
     }
 
     .habits-block {
