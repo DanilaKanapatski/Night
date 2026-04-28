@@ -2,7 +2,7 @@
     background: url("../assets/images/main-back-1.png") no-repeat;
     background-size: 100% auto, cover;
     padding-top: 308px;
-    padding-bottom: 59px;
+    padding-bottom: 52px;
     margin-top: -89px;
 }
 
@@ -73,6 +73,14 @@
     display: none;
 }
 
+.night-first-desc-mob {
+    display: none;
+}
+
+.night-mob-desc-3 {
+    display: none;
+}
+
 .night-img img {
     position: absolute;
     right: 0;
@@ -131,7 +139,7 @@
     display: flex;
     gap: 70px;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
 }
 
 .formula-list div {
@@ -342,6 +350,7 @@
         margin-top: 57px;
         flex-direction: column;
         gap: 70px;
+        align-items: center;
     }
 
     .formula-list h3 {
@@ -705,6 +714,23 @@
         z-index: 2;
     }
 
+    .night-first-desc-mob {
+        display: block;
+    }
+
+    .night-first-desc {
+        display: none;
+    }
+
+    .night-mob-desc-2 {
+        display: none;
+    }
+
+    .night-mob-desc-3 {
+        display: block;
+        max-width: 300px;
+    }
+
     .night-img img {
         margin-top: 39px;
         position: relative;
@@ -769,6 +795,7 @@
 
     .formula-list li p:first-of-type {
         display: block;
+        max-width: 300px;
     }
 
     .formula-list li p:last-of-type {

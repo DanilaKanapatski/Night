@@ -12,6 +12,10 @@
     margin-top: 61px;
 }
 
+.about-desc-mob-2 {
+    display: none;
+}
+
 .about-block {
     display: flex;
     gap: 49px;
@@ -340,18 +344,46 @@
     }
 
     .about-content p {
-        max-width: 313px;
+        max-width: 320px;
         margin-top: 28px;
         font-size: 18px;
     }
 
+    .about-subtitle-mob {
+        display: none;
+    }
+
+    .about-subtitle {
+        display: block;
+    }
+
+    .about-desc {
+        display: block;
+    }
+
+    .about-desc-mob {
+        display: none;
+    }
+
     .about-content h4 {
-        max-width: 313px;
+        max-width: 243px;
         font-size: 18px;
+    }
+
+    .about-content .last-desc {
+        max-width: 320px;
     }
 
     .about-content svg {
         width: 64px;
         height: 64px;
+    }
+
+    .about-desc-mob-2 {
+        display: block;
+    }
+
+    .first-about {
+        display: none;
     }
 }

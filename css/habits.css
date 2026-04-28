@@ -24,8 +24,16 @@
     display: none;
 }
 
+.habits-desc-mob-2 {
+    display: none;
+}
+
 .habits-mob {
     display: none;
+}
+
+.habits-mob-2 {
+    display: none !important;
 }
 
 .habits-desktop {
@@ -169,6 +177,14 @@
         grid-column: 1;
         grid-row: 1;
     }
+
+    .tablet {
+        display: none;
+    }
+
+    .tablet-mob {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 727px) {
@@ -230,6 +246,10 @@
         font-size: 14px;
         color: var(--night);
         font-weight: 400;
+    }
+
+    .habits-block .tablet-mob {
+        display: none;
     }
 
     .habits-mob {
@@ -317,8 +337,12 @@
         display: none;
     }
 
-    .habits-mob {
+    .habits-list .habits-mob {
         display: block !important;
+        margin-top: 14px;
+        font-size: 14px;
+        color: var(--night);
+        font-weight: 400
     }
 
     .habits-block {
@@ -426,5 +450,31 @@
 
     .habits-three {
         padding-right: 20px;
+    }
+
+    .habits-desc-mob {
+        display: none;
+    }
+
+    .habits-desc-mob-2 {
+        display: block;
+        max-width: 314px;
+        margin-top: 28px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 120%;
+        color: var(--white);
+    }
+
+    .habits-desc {
+        display: none;
+    }
+
+    .habits-list .habits-mob {
+        display: none !important;
+    }
+
+    .habits-mob-2 {
+        display: block !important;
     }
 }

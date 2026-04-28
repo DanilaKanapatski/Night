@@ -70,3 +70,9 @@ html {
         width: 378px;
     }
 }
+
+@media screen and (max-width: 399px) {
+    .title {
+        width: 333px;
+    }
+}
