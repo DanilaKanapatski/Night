@@ -25,6 +25,14 @@
     margin-left: 11px;
 }
 
+.about-img1 img {
+    height: 433px;
+}
+
+.about-img2 img {
+    height: 433px;
+}
+
 .about-block:last-of-type {
     margin-left: 274px;
 }
@@ -141,6 +149,14 @@
         max-width: 614px;
         margin-left: 0;
         position: relative;
+    }
+
+    .about-img1 img {
+        height: 353px;
+    }
+
+    .about-img2 img {
+        height: 353px;
     }
 
     .about-block picture {

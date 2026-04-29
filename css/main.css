@@ -85,6 +85,7 @@
     position: absolute;
     right: 0;
     top: 0;
+    width: 725px;
 }
 
 .night-text {
@@ -309,6 +310,7 @@
         margin-top: 116px;
         position: relative;
         display: block;
+        width: 100%;
     }
 
     .night-formula img {
@@ -690,7 +692,7 @@
 
     .main-block {
         margin-top: 342px;
-        width: 363px;
+        width: 360px;
         margin-left: -20px;
     }
 
